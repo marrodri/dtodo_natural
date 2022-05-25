@@ -8,6 +8,31 @@
 
 header{
 	background-color: blue;
+	display: flex;
+	align-items: center;
+	height: 65px;
+	font-family: open sans;
+	/* 65px looks good, scale it to rem */
+	/* instead of flex, use a grid, it will be more useful. */
+}
+
+.headerLogo{
+	display: flex;
+	align-items: center;
+}
+
+#dtodoTitle{
+	color: #FD8001;
+}
+
+#naturalTitle{
+	color: #248C4A;
+}
+
+
+.portraitContainer>h1{
+	/* font: montserrat;/ */
+	font-family: 'Montserrat'	
 }
 
 .headerLogo{}
