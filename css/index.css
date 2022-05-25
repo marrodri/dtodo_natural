@@ -2,6 +2,24 @@
 /* DO SOME CSS FOR THE FIRST PAGE */
 
 
+/*
+**Header styles
+*/
+
+header{
+	background-color: blue;
+}
+
+.headerLogo{}
+.onlineMenuButton{}
+.contactUsButton{}
+
+
+
+/*
+**End of header styles
+*/
+
 .dtodonaturalFoodImg0{
 	height: 25%;
 	width: 25%;
@@ -40,3 +58,4 @@
 	height: 30%;
 	width: 30%;
 }
+
