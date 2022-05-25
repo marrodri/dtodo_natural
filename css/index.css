@@ -48,15 +48,17 @@ header{
 */
 
 .portraitContainer{
-	position: relative;
-	text-align: center;
+	/* position: relative; */
+	height: 600px;
+
+	background-color: green;
 }
 
 .portraitContainer>h1{
 	font-family: 'Montserrat';
 	position: absolute;
-	top: 50%;
-	left: 5%;
+	/* /* top: 50%; */
+	left: 5%; 
 	right: 60%;
 	color: white;
 	font-size: 4rem;
