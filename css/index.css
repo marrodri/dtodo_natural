@@ -77,6 +77,19 @@ header{
 .aboutUs{
 	background-color: red;
 }
+.aboutUs>h2{
+	position: relative;
+	font-family: 'Roboto', sans-serif;
+	font-size: 60px;
+	left: 5%;
+}
+
+.aboutUs>p{
+	position: relative;
+	left: 5%;
+	font-size: 25px;
+	font-family: 'open sans';
+}
 
 #aboutUsImgs{
 	display: flex;
@@ -115,7 +128,21 @@ header{
 
 .findUsAt{
 	background-color: aqua;
+	
 }
+
+.findUsAt>h2{
+	position: relative;
+	font-family: 'Roboto', sans-serif;
+	font-size: 50px;
+	left: 5%;
+}
+
+.findUsAt>h3{
+	font-family:  'Roboto', sans-serif;
+	left: 5%;
+}
+
 .googleMapImg{
 	height: 35%;
 	width: 35%;
