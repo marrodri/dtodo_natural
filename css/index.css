@@ -69,6 +69,21 @@ header{
 **End of portrait styles.
 */
 
+
+/*
+** AboutUs styles
+*/
+
+.aboutUs{
+	background-color: red;
+}
+
+#aboutUsImgs{
+	display: flex;
+	align-items: center;
+}
+
+
 .dtodonaturalFoodImg0{
 	height: 25%;
 	width: 25%;
@@ -90,7 +105,17 @@ header{
 	width: 19%;
 }
 
+/*
+** End of About Us
+*/
 
+/* 
+**FindUsAt styles
+*/
+
+.findUsAt{
+	background-color: aqua;
+}
 .googleMapImg{
 	height: 35%;
 	width: 35%;
@@ -98,10 +123,19 @@ header{
 .uberEatsImg{
 	height: 20%;
 	width: 20%;
-
 }
 
-/* .buildingImg{} */
+/* 
+** End of FindUsAt
+*/
+
+/* 
+**Footer Styles
+*/
+
+footer{
+	background-color: blue;
+}
 
 .footerLogo{
 	height: 30%;
