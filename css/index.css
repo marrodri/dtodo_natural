@@ -21,6 +21,8 @@ header{
 	align-items: center;
 }
 
+/* .headerLogo{} */
+
 #dtodoTitle{
 	color: #FD8001;
 }
@@ -29,12 +31,11 @@ header{
 	color: #248C4A;
 }
 
+header>a{
+	color: black;
+}
 
 
-
-.headerLogo{}
-.onlineMenuButton{}
-.contactUsButton{}
 
 
 
@@ -147,6 +148,7 @@ header{
 	height: 35%;
 	width: 35%;
 }
+
 .uberEatsImg{
 	height: 20%;
 	width: 20%;
@@ -162,10 +164,30 @@ header{
 
 footer{
 	background-color: blue;
+	/* add regular montserrat, NOT BOLD  */
+	font-family: 'montserrat';
+	font-weight: 300;
+
 }
 
 .footerLogo{
 	height: 30%;
 	width: 30%;
 }
+
+.footerContent{
+	display: flex;
+	align-items: center;
+}
+
+.footerContent>h2{
+	font-family: 'montserrat';
+	font-weight: 300;
+
+}
+
+.copyright{
+	font-family:'open sans' ;
+}
+
 
