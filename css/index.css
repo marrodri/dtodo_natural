@@ -50,8 +50,8 @@ header>a{
 
 .portraitContainer{
 	/* position: relative; */
-	height: 600px;
-
+	height: 550px;
+	/* display: inline-block; */
 	background-color: green;
 }
 
@@ -62,6 +62,7 @@ header>a{
 	left: 5%; 
 	right: 60%;
 	color: white;
+	/* background-color: #FD8001; */
 	font-size: 4rem;
 }
 
@@ -77,15 +78,35 @@ header>a{
 
 .aboutUs{
 	background-color: red;
+	
+
 }
-.aboutUs>h2{
+
+#aboutUsTitle{
+	background-color: aqua;
+
+}
+#aboutUsTitle>h2{
 	position: relative;
 	font-family: 'Roboto', sans-serif;
 	font-size: 60px;
 	left: 5%;
+	width: 100%;
 }
 
-.aboutUs>p{
+/* dont delete this. */
+/* #aboutUsContent>p{
+	position: relative;
+	left: 5%;
+	font-size: 25px;
+	font-family: 'open sans';
+} */
+
+#tableAboutUspa1{	position: relative;
+	left: 5%;
+	font-size: 25px;
+	font-family: 'open sans';}
+#tableAboutUspa2{
 	position: relative;
 	left: 5%;
 	font-size: 25px;
