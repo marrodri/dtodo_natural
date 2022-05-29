@@ -8,19 +8,37 @@
 
 header{
 	background-color: blue;
-	display: flex;
+	display: grid;
 	align-items: center;
 	height: 65px;
 	font-family: open sans;
 	/* 65px looks good, scale it to rem */
 	/* instead of flex, use a grid, it will be more useful. */
+	grid-template-columns:[first] 5% [line2] 100px [line3] auto [line4] 100px [line5] 25px [line6] 100px [line7] 5% [line8];
+	grid-template-rows: [first] 25% [line2] auto [line3] 25% [line4];
 }
 
 .headerLogo{
 	display: flex;
 	align-items: center;
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start:2;
+	grid-row-end:3;
 }
 
+#onlineMenuButton{
+	grid-column-start: 4;
+	grid-column-end: 5;
+	grid-row-start:2;
+	grid-row-end:3;
+}
+#contactUsButton{
+	grid-column-start: 6;
+	grid-column-end: 7;
+	grid-row-start:2;
+	grid-row-end:3;
+}
 /* .headerLogo{} */
 
 #dtodoTitle{
